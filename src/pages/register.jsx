@@ -1,17 +1,21 @@
 import React from "react";
-import "./contact.css";
+import "./register.css"
 
-export const Contact = () => {
+export const Register = () => {
   return (
     <div>
     <div className="login-page">
         <div className="login-container">
             <div className="signin" id="signin">
-                <h2>Login</h2>
+                <h2>Register</h2>
                 <div className="form">
                     <div className="user-box">
                         <input type="text" />
                         <label>Username</label>
+                    </div>
+                    <div className="user-box">
+                        <input type="email" />
+                        <label>Email</label>
                     </div>
                     <div className="user-box">
                         <input type="password" />
@@ -22,7 +26,7 @@ export const Contact = () => {
                         <label for="checkbox">Remember me</label>
                     </div>
                     <div className="submit-btn">
-                        <button>Register</button>
+                        <button>SIGN UP</button>
                     </div>
                 </div>
                 <span>Not a member? </span>

@@ -3,8 +3,9 @@
   height: 80px;
   background-color: rgb(19, 19, 19);
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+  
 }
 
 .links {
@@ -16,6 +17,18 @@
 .links a {
   text-decoration: none;
   color: white;
-  margin-left: 20px;
+  margin-right: 20px;
   font-size: 25px;
+  /* color: aqua; */
+}
+
+.links :hover{
+  color: aqua;
+}
+
+.logo {
+ 
+  display: flex;
+  justify-content: flex-start;
+  
 }

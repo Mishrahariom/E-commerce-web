@@ -5,6 +5,7 @@ import { Shop } from "./pages/shop/shop";
 import { Register } from "./pages/register";
 import { Contact } from "./pages/contact";
 import { Cart } from "./pages/cart/cart";
+import { Checkpoint } from "./pages/checkpoint";
 import { ShopContextProvider } from "./context/shop-context";
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
             <Route path="/" element={<Shop />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/register" element={<Register />} />
-
             <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<Checkpoint />} />
           </Routes>
         </Router>
       </ShopContextProvider>

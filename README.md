@@ -8,7 +8,7 @@
 
 *Create a basic e-commerce website using ReactJS.*
 
-**Website Deploy Link -**   [E-Commerce-website ( Thinsil Technologies )](https://pedrotech-thinsil.netlify.app/)
+**Website Deploy Link -**   [E-Commerce-website](https://pedrotech-thinsil.netlify.app/)
 
 **Greeting -** learned and implement about ***React Router ,  Hooks-Context ,  Dynamic routing sagment , Tailwind CSS  and API's .***
 
